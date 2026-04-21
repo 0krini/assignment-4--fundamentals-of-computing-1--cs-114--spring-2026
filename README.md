@@ -24,10 +24,10 @@ Using basic Java graphics in Processing, create a tic-tac-toe game where the use
 3. The user *always* renders a circle.
 4. The computer *always* starts.
 5. Any content reported to the user *must* be carried out via Processing’s `println()` method.
-6. Use only the numeric keys 0 and 8 to choose a square. The number 0 *must* map to the top left corner square, then assign the subsequent numbers across the top and down until you reach the bottom right corner square, which *must* map to the number 8.
+6. Use only the numeric keys 0 through 8 to choose a square. The number 0 *must* map to the top left corner square, then assign the subsequent numbers across the top and down until you reach the bottom right corner square, which *must* map to the number 8.
 7. When the user presses any key between 0 and 8 that corresponds to a blank square, your program should fill that square with a circle. This is akin to the user taking a turn at the game.
 8. Immediately after the user plays, the computer takes its turn.
-9. When the user presses any key *other* than 0 and 8, your program should report a message to the user that they pressed an incorrect key.
+9. When the user presses any key *other* than 0 through 8, your program should report a message to the user that they pressed an incorrect key.
 10. After the user takes their turn, and if neither the user nor the computer has won, report to the user that the game is still in play.
 11. If all squares are played and neither the computer nor the user has won, report to the user that no one has won.
 12. When either the user or the computer has won, report this to the user.
